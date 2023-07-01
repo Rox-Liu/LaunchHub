@@ -9,22 +9,19 @@ const Work = () => {
 
     const works = [
         {
-            header: 'Our recent work',
             name: 'ClimateWorks Website',
             image: ClimateWorks,
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
+            desc: 'We designed and developed the ClimateWorks Foundation Australia website, delivering an engaging user experience that communicates the urgency of climate change and promotes sustainable solutions specific to Australia.'
         },
         {  
-            header: '',
             name: 'ShelterLink Website',
             image: ShelterLinkImg,
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
+            desc: 'We delivered a comprehensive platform dedicated to addressing homelessness by  connecting individuals with shelter services, and fostering collaboration among stakeholders to create lasting solutions and support for those in need.'
         },
         {
-            header: '',
             name: 'Carbon Collective App',
             image: CarbonCollective,
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
+            desc: 'We designed and developed The Carbon Collective sustainable investment app, utilising AI and clean energy sources to address the climate crisis and integrate with existing digital platforms for scalable impact.'
         }
     ]
 
@@ -36,13 +33,11 @@ const Work = () => {
                     
                 { works.map( (work, index) => {
                     return (
-                        // <div id="work-container" key={index}>
-                            <div className="work">
-                                <div className="work-img" style={{ backgroundImage: `url(${work.image})`}}></div>
-                                <p>{work.name}</p>
-                                <p>{work.desc}</p>
-                            </div>
-                        // </div>
+                        <div className="work" key={index}>
+                            <div className="work-img" style={{ backgroundImage: `url(${work.image})`}}></div>
+                            <p>{work.name}</p>
+                            <p>{work.desc}</p>
+                        </div>
                     )
                 })}
                 </div>

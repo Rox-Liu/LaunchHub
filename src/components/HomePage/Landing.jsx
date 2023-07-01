@@ -5,10 +5,7 @@ import './Landing.css'
 const Landing = () => {
     return (
         <div id="landing-container">
-            <h1>
-                We help start ups with a focus on delivering social impacts, scale and reach their audience effectively.
-            </h1>
-
+            <h1>We work with start-ups to deliver social impact, scale & reach their audience.</h1>
             <button>Work With Us</button>
         </div>
     )

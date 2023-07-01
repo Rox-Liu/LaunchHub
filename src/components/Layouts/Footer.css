@@ -1,18 +1,18 @@
 footer {
     display: flex;
-    margin: 2em;
+    margin: 0em 2em 2em 2em;
     flex-direction: column;
 }
 
 footer > div {
-    margin: .5em 0 .5em 0;
+    margin: .5em 0;
 }
 
-footer > div:last-of-type > div {
+footer > div:nth-child(4) > div {
     display: flex;
     justify-content: flex-start;
 }
 
-footer > div:last-of-type > div > a:last-of-type {
+footer > div:nth-child(4) > div > a:last-of-type {
     margin-left: 1em;
 }
