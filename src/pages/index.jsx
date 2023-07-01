@@ -5,7 +5,7 @@ import Services from "../components/HomePage/Services";
 import Landing from "../components/HomePage/Landing";
 import Work from "../components/HomePage/Works";
 import Footer from "../components/Layouts/Footer";
-import Navbar from "../components/NavBar";
+import Navbar from "../components/Layouts/Navbar";
 
 const IndexPage = () => {
 	return (
