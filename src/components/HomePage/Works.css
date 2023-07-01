@@ -1,10 +1,32 @@
-.container {
+.work-container {
     height: 100vh;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px red;
+}
+
+.work-container > .work-header {
+    height: 10%;
+    margin-top: 2rem;
+}
+
+.work {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .work-img {
     object-fit: cover;
     background-position: center;
-    height: 50%;
-    width: 60%;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+} 
+
+p {
+   margin-top: 2rem; 
+   align-self: center;
 }
