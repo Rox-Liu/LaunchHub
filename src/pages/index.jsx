@@ -22,6 +22,10 @@ const IndexPage = () => {
 	);
 };
 
-export const Head = () => <title>SHIFT</title>;
-
+export const Head = () => (
+	<>
+		<title>SHIFT</title>
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+	</>
+)
 export default IndexPage;
