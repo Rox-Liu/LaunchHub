@@ -1,3 +1,10 @@
-.work {
+.container {
     height: 100vh;
+}
+
+.work-img {
+    object-fit: cover;
+    background-position: center;
+    height: 50%;
+    width: 60%;
 }

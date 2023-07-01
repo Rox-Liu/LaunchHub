@@ -13,8 +13,8 @@ const Footer = () => {
             <p>email</p>
 
             <h3>Social</h3>
-            <a href="">Instagram</a>
-            <a href="">LinkedIn</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
         </div>
     )
 

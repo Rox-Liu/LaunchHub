@@ -6,32 +6,34 @@ const Work = () => {
 
     const works = [
         {
+            header: 'Our Works',
+            image: 'http://placekitten.com/250/440',
+            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
+        },
+        {  
+            header: '',
             image: 'http://placekitten.com/250/440',
             desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
         },
         {
-            image: 'http://placekitten.com/250/440',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
-        },
-        {
+            header: '',
             image: 'http://placekitten.com/250/440',
             desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
         }
     ]
 
     return (
-        <div className="container">
-            <h2>Our Work</h2>
-            { works.map( (work) => {
+        <>
+            { works.map( (work, index) => {
                 return (
-                    <div className="work">
-                        <div style={{ backgroundImage: `url(${work.image})`}}></div>
+                    <div className="container" key={index}>
+                        { work.header !== '' && <h2>{work.header}</h2> }
+                        <div className="work-img" style={{ backgroundImage: `url(${work.image})`}}></div>
                         <p>{work.desc}</p>
                     </div>
                 )
             })}
-
-        </div>
+        </>
     )
 }
 
