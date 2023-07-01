@@ -3,12 +3,14 @@
     margin: 0em 2em 0 2em;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .contact-blurb {
     display: flex;
     flex-direction: column;
     margin-bottom: 3em;
+    z-index: 2;
 }
 
 .contact-blurb > h1 {
@@ -48,11 +50,18 @@ textarea {
     height: 10em;
 }
 
+#form-shape {
+    position: absolute;
+    top: 5%;
+    left: -5em;
+    z-index: 1;
+}
+
 @media ( min-width: 1024px ) {
     #contact-container {
         max-width: 1440px;
         width: 100%;
-        height: 80vh;
+        height: 100vh;
     }
 
     .contact-blurb > h1 {

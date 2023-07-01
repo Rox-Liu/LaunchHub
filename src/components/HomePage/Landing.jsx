@@ -15,7 +15,7 @@ const Landing = () => {
 
         return () => {
             window.removeEventListener('resize', handleResize);
-        }
+        };
     }, []);
     
     return (
