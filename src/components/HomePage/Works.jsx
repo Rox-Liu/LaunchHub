@@ -6,32 +6,42 @@ const Work = () => {
 
     const works = [
         {
-            image: 'http://placekitten.com/250/440',
+            header: 'Our Works',
+            name: 'ClimateWorks Website',
+            image: 'http://placekitten.com/400/800',
+            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
+        },
+        {  
+            header: '',
+            name: 'ShelterLink Website',
+            image: 'http://placekitten.com/401/801',
             desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
         },
         {
-            image: 'http://placekitten.com/250/440',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
-        },
-        {
-            image: 'http://placekitten.com/250/440',
+            header: '',
+            name: 'Carbon Collective App',
+            image: 'http://placekitten.com/402/800',
             desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
         }
     ]
 
     return (
-        <div className="container">
-            <h2>Our Work</h2>
-            { works.map( (work) => {
+        <>
+            { works.map( (work, index) => {
                 return (
-                    <div className="work">
-                        <div style={{ backgroundImage: `url(${work.image})`}}></div>
-                        <p>{work.desc}</p>
+                    <div className="work-container" key={index}>
+                        <div className="work-header">
+                            { work.header !== '' && <h2>{work.header}</h2> }
+                        </div>
+                        <div className="work">
+                            <div className="work-img" style={{ backgroundImage: `url(${work.image})`}}></div>
+                            <p>{work.name}</p>
+                            <p>{work.desc}</p>
+                        </div>
                     </div>
                 )
             })}
-
-        </div>
+        </>
     )
 }
 

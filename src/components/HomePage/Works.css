@@ -1,3 +1,34 @@
-.work {
+.work-container {
     height: 100vh;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
 }
+
+.work-container > .work-header {
+    height: 10%;
+    margin-top: 2rem;
+}
+
+.work {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.work-img {
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+} 
+
+.work > p {
+   margin-top: 2rem; 
+}
+
+.work > p:first-of-type {
+    font-weight: bold;
+ }

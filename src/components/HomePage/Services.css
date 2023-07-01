@@ -1,3 +1,29 @@
-.container {
+#services-container {
     height: 100vh;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+.services-blurb {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-blurb > h1 {
+    margin: 1rem 0 2rem 0;
+    font-weight: bold;
+}
+
+.services-blurb > p:first-of-type {
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.services-list > h2 {
+    font-weight: 700;
+    margin: 1rem 0 1rem 0;
+}
+
+

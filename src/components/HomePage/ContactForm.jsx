@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from "@formspree/react";
+import './ContactForm.css';
 
 const ContactForm = () => {
     const [ state, handleSubmit ] = useForm("abcd"); // use real form ID
@@ -14,27 +15,29 @@ const ContactForm = () => {
     }
 
     return (
-        <div className="container">  
-            <h2>Work With Us!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus inventore at voluptatibus consequatur asperiores nihil vero ab voluptates? Animi ipsam aliquid cupiditate iste laborum repellendus est sapiente voluptatibus atque.</p>
+        <div id="contact-container">
+            <div className="contact-blurb">
+                <h2>Lets Chat!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus inventore at voluptatibus consequatur asperiores nihil vero ab voluptates? Animi ipsam aliquid cupiditate iste laborum repellendus est sapiente voluptatibus atque.</p>
+            </div>
             <form onSubmit={ handleSubmit }>
-                <label htmlFor="firstName">*First Name:</label>
+                <label htmlFor="firstName">Your first name</label>
                 <input type="text" name="firstName" id="firstName" placeholder="Frank" required />
 
-                <label htmlFor="lastName">*Last Name:</label>
+                <label htmlFor="lastName">Your last name</label>
                 <input type="text" name="lastName" id="lastName" placeholder="Ocean" required />
 
-                <label htmlFor="email">*Email:</label>
+                <label htmlFor="email">Your email</label>
                 <input id="email" type="email" name="email" placeholder="frank@gmail.com" required/>
 
-                <label htmlFor="company">Company:</label>
+                <label htmlFor="company">Your organisation</label>
                 <input type="text" name="company" id="company" />
 
-                <label htmlFor="message">*Message:</label>
+                <label htmlFor="message">Write a message</label>
                 <textarea id="message" name="message" placeholder="Say hello :)" required />
                 
                 <button type="submit" disabled={state.submitting}>
-                    Send!
+                    Submit Enquiry!
                 </button>
                 <ValidationError errors={state.errors} />   
             </form>
