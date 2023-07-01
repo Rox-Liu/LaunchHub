@@ -8,7 +8,6 @@
 * Planning & Problem Solving
 * Built With
 * Getting Started
-* Features
 * Screenshots
 * Room for Improvement
 * License
@@ -21,9 +20,9 @@ SHIFT was developed as part of the Collabathon and led by a dedicated team compr
 <br><br>
 
 ## ✏️ Planning & Problem Solving
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Sign%20in.png)
+![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/figma1.png)
 
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Sign%20in.png)
+![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/figma2.png)
 
 <br></br>
 ## 🦾 Built With
@@ -64,42 +63,13 @@ npm install
 npm run develop
 ```
 <br><br>
-## 🛍️ Features
-There are several aspects of Pocket Cart at the moment: Admin, User Authentication, Search, Filter, Cart, Orders, Shipping and Payment.
-
-- ### Admin
-  - Product Management: Access an admin dashboard to manage products, including adding new products, updating existing product details, and removing products from the inventory.
-  - Inventory Management: Monitor and track product stock levels and manage inventory to ensure availability of products.
-  - Order Management: View and filter customer orders.
-  - User Management: Manage user accounts, including creating new accounts, and handling user permissions and roles.
-
-- ### User Authentication
-  Sign Up, Sign In, Password Reset (You will get an email to reset your password), Log Out, Confirmation Email (Once you place an order successfully).
-
-- ### Search
-  Use the search functionality to find specific products by keywords, product names, or categories.
-  
-- ### Filter
-  Utilize advanced filtering options to narrow down product listings based on category, price range, new item and more. Easily find the products that match your preferences and requirements.
-- ### Cart 
-  - Add to Cart: Select your desired products and add them to your shopping cart.
-  - Manage Cart: View and modify the items in your cart, update quantities, and remove products if needed.
-
- - ### Order
-   - Proceed to the checkout process to review your order details and provide shipping information.
-   - Review your historical orders once you logged in.
-  
-- ### Shipping & Payment
-  Enjoy a seamless and secure shopping experience with a variety of payment methods. We integrate with Stripe to ensure the safety and convenience of your financial transactions.
-
-<br><br>
 ## 📸 Screenshots
 
 ### Home Page
 ![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Home.png)
-### Sign In Page
+### About Us Page
 ![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Sign%20in.png)
-### My Account Page
+### Responsive
 ![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/My%20Account.png)
 
 
