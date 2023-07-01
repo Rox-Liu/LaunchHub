@@ -21,6 +21,9 @@ SHIFT was developed as part of the Collabathon and led by a dedicated team compr
 <br><br>
 
 ## ✏️ Planning & Problem Solving
+![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Sign%20in.png)
+
+![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Sign%20in.png)
 
 <br></br>
 ## 🦾 Built With
@@ -49,15 +52,15 @@ npm install npm@latest -g
 You can clone this repository and run them locally on your machine. Use the following command to clone it:
 
 ```
-git clone https://github.com/Rox-Liu/.git
+git clone https://github.com/Rox-Liu/LaunchHub.git
 ```
 ### Running the Project
 After cloning the repositorY, navigate to the project directory and install the necessary dependencies. You can use the following commands:
 
 ```
-cd online-shop-client
+npm init gatsby
+cd SHIFT
 npm install
-npm run clean
 npm run develop
 ```
 <br><br>
