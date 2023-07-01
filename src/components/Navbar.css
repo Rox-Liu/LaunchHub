@@ -1,14 +1,22 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 20px;
 }
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
 nav .label-menu {
     text-align: right;
     position: absolute;
     top: 1rem;
     right: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 .menu-list {
@@ -34,9 +42,10 @@ nav .label-menu {
     text-decoration: none;
     color: #E5692B;
     font-size: 45px;
+    font-weight: 800;
     text-align: center;
     display: block;
-    margin-bottom: 56px;
+    margin-top: 60px;
 }
 
 #checkbox-menu {
@@ -49,20 +58,36 @@ nav .label-menu {
     opacity: 1;
 }
 
-@media  (min-width: 544px) {
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        width: 100%;
+    }
+
     nav .label-menu {
         display: none;
     }
-    
+
     .menu-list {
         display: flex;
         direction: row;
-        gap: 2em;
+        gap: 3em;
         opacity: 1;
+        background: none;
+        position:relative;
+        padding: 0;
+        transform: none;
+        width: auto;
     }
 
     .menu-list a {
         text-decoration: none;
-        color: #000;
+        color: #E5692B;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 0;
+        pointer-events: all;
     }
 }
