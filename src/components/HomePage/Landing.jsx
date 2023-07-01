@@ -3,20 +3,26 @@ import './Landing.css'
 
 // Landing page
 const Landing = () => {
-    const [ winWidth, setWinWidth ] = useState(window.innerWidth);
+    const [ winWidth, setWinWidth ] = useState(0);
+
+    useEffect( () => {
+        if (typeof window !== 'undefined') {
+            setWinWidth(window.innerWidth);
+            window.addEventListener('resize', handleResize);
+        }
+
+        return () => {
+            if (typeof window !== 'undefined') {
+            window.removeEventListener('resize', handleResize);
+        };
+    };
+}, []);
     
     const handleResize = () => {
         setWinWidth(window.innerWidth);
     };
 
-    useEffect( () => {
-        
-        window.addEventListener('resize', handleResize);
 
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
     
     return (
         <>
