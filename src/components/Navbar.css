@@ -3,6 +3,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    position: absolute;
+    top: 0;
 }
 
 nav .logo {

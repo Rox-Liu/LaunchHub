@@ -17,30 +17,33 @@ const ContactForm = () => {
     return (
         <div id="contact-container">
             <div className="contact-blurb">
-                <h2>Lets Chat!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus inventore at voluptatibus consequatur asperiores nihil vero ab voluptates? Animi ipsam aliquid cupiditate iste laborum repellendus est sapiente voluptatibus atque.</p>
+                <h1>Lets Chat!</h1>
+                <p>Need help with your project? Give us a call or fill in the contact form below and we'll make a time to chat.</p>
             </div>
             <form onSubmit={ handleSubmit }>
-                <label htmlFor="firstName">Your first name</label>
-                <input type="text" name="firstName" id="firstName" placeholder="Frank" required />
+                <div className="inputs-container">
+                    <div className="form-inputs">
+                        <label htmlFor="full-name">Your name</label>
+                        <input type="text" name="full-name" id="full-name" placeholder="Frank" required />
 
-                <label htmlFor="lastName">Your last name</label>
-                <input type="text" name="lastName" id="lastName" placeholder="Ocean" required />
+                        <label htmlFor="email">Your email</label>
+                        <input id="email" type="email" name="email" placeholder="frank@gmail.com" required/>
 
-                <label htmlFor="email">Your email</label>
-                <input id="email" type="email" name="email" placeholder="frank@gmail.com" required/>
+                        <label htmlFor="company">Your organisation</label>
+                        <input type="text" name="company" id="company" />
+                    </div>
 
-                <label htmlFor="company">Your organisation</label>
-                <input type="text" name="company" id="company" />
-
-                <label htmlFor="message">Write a message</label>
-                <textarea id="message" name="message" placeholder="Say hello :)" required />
+                    <div className="form-text">
+                        <label htmlFor="message">Write a message</label>
+                        <textarea id="message" name="message" placeholder="Say hello :)" required />
+                    </div>
+                </div>
                 
                 <button type="submit" disabled={state.submitting}>
                     Submit Enquiry!
                 </button>
-                <ValidationError errors={state.errors} />   
             </form>
+            <ValidationError errors={state.errors} /> 
 
         </div>
     )

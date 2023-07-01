@@ -5,4 +5,19 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    color: var(--text-color);
+}
+
+#gatsby-focus-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+:root {
+    --accent: #E5692B;
+    --bg-color: #272624;
+    --text-color: #EAE4DA;
 }
