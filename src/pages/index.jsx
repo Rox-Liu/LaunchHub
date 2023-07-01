@@ -1,4 +1,5 @@
 import * as React from "react";
+import '../styles/index.css'
 import ContactForm from "../components/HomePage/ContactForm";
 import Services from "../components/HomePage/Services";
 import Landing from "../components/HomePage/Landing";

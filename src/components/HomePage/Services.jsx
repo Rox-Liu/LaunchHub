@@ -1,8 +1,9 @@
 import React from 'react';
+import './Services.css';
 
 const Services = () => {
     return (
-        <div>
+        <div className="container">
             <h1>What We Do</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro asperiores cumque praesentium illum pariatur id consequatur beatae, maxime, nesciunt omnis excepturi at accusamus ipsum iste inventore. Eligendi veritatis maiores accusantium?</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nihil! Illum quas voluptatibus beatae non labore perferendis commodi distinctio ipsa temporibus placeat quos, doloribus, optio eaque deleniti, cum inventore incidunt!</p>

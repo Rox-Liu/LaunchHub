@@ -1,4 +1,5 @@
 import React from 'react';
+import './Works.css';
 
 // Our Works
 const Work = () => {
@@ -19,11 +20,11 @@ const Work = () => {
     ]
 
     return (
-        <div>
+        <div className="container">
             <h2>Our Work</h2>
             { works.map( (work) => {
                 return (
-                    <div>
+                    <div className="work">
                         <div style={{ backgroundImage: `url(${work.image})`}}></div>
                         <p>{work.desc}</p>
                     </div>

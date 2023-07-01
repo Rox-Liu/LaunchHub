@@ -14,7 +14,7 @@ const ContactForm = () => {
     }
 
     return (
-        <div className="contact-form">  
+        <div className="container">  
             <h2>Work With Us!</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus inventore at voluptatibus consequatur asperiores nihil vero ab voluptates? Animi ipsam aliquid cupiditate iste laborum repellendus est sapiente voluptatibus atque.</p>
             <form onSubmit={ handleSubmit }>
