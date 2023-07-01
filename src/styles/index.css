@@ -12,4 +12,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--bg-color);
+}
+
+:root {
+    --accent: #E5692B;
+    --bg-color: #272624;
+    --text-color: #EAE4DA;
 }
