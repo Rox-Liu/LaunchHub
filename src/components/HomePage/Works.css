@@ -3,7 +3,6 @@
     margin: 2em;
     display: flex;
     flex-direction: column;
-    border: solid 1px red;
 }
 
 .work-container > .work-header {
@@ -28,5 +27,8 @@
 
 .work > p {
    margin-top: 2rem; 
-   align-self: center;
 }
+
+.work > p:first-of-type {
+    font-weight: bold;
+ }

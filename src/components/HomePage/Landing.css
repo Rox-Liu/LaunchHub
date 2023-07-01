@@ -5,7 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    border: solid 1px red;
 }
 
 #landing-container > h1 {
