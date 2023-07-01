@@ -1,13 +1,7 @@
 #work-outer-container {
     margin: 0em 2em 0 2em;
+    position: relative;
 }
-/* 
-#work-container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    border: solid 1px red;
-} */
 
 #work-inner-container {
     display: flex;
@@ -24,6 +18,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    z-index: 2;
 }
 
 .work-img {
@@ -40,7 +35,14 @@
 
 .work > p:first-of-type {
     font-weight: bold;
- }
+}
+
+#work-shape {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
 
 @media ( min-width: 1024px ) {
     #work-outer-container {
@@ -53,7 +55,6 @@
     }
 
     #work-inner-container {
-        max-width: 1440px;
         font-size: 1.5rem;
         flex-direction: row;
         justify-content: space-around;

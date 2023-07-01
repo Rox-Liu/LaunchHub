@@ -4,11 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    position: relative;
 }
 
 .services-blurb {
     display: flex;
     flex-direction: column;
+    z-index: 2;
 }
 
 .services-blurb > h1 {
@@ -21,6 +23,12 @@
     margin: 1rem 0 1rem 0;
 }
 
+#service-shape {
+    position: absolute;
+    top: 5%;
+    margin-left: -11em;
+    z-index: 1
+}
 
 @media ( min-width: 1024px ) {
     #services-container {
