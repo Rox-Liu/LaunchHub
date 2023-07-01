@@ -5,7 +5,10 @@ nav {
     padding: 20px;
 }
 nav .label-menu {
-    
+    text-align: right;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 .menu-list {
@@ -13,14 +16,27 @@ nav .label-menu {
     direction: column;
     list-style: none;
     margin: 0;
-    padding: 0;
-    opacity: 0;
     font-weight: bold;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #EAE4DA;
+    padding: 3rem;
+    transition: transform .2s ease, opacity .2s ease;
+    transform: translateY(-3rem);
+    opacity: 0;
 }
 
 .menu-list a {
     text-decoration: none;
-    color: #000;
+    color: #E5692B;
+    font-size: 45px;
+    text-align: center;
+    display: block;
+    margin-bottom: 56px;
 }
 
 #checkbox-menu {
@@ -28,6 +44,8 @@ nav .label-menu {
 }
 
 #checkbox-menu:checked ~ .menu-list {
+    pointer-events: all;
+    transform: translateY(0);
     opacity: 1;
 }
 
