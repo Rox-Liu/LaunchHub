@@ -13,10 +13,10 @@ const Landing = () => {
 
         return () => {
             if (typeof window !== 'undefined') {
-            window.removeEventListener('resize', handleResize);
+                window.removeEventListener('resize', handleResize);
+            };
         };
-    };
-}, []);
+    }, []);
     
     const handleResize = () => {
         setWinWidth(window.innerWidth);
