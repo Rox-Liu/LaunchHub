@@ -30,13 +30,13 @@ input, label, textarea {
 }
 
 input, textarea { 
-    background: lightgrey;
+    background: var(--text-color);
     padding: .5em;
+    color: var(--bg-color);
 }
 
 form > button {
-    background-color: black;
-    color: white;
+    background-color: var(--accent);
     border: none;
     border-radius: 1em;
     padding: 1em;
@@ -51,7 +51,6 @@ textarea {
 @media ( min-width: 1024px ) {
     #contact-container {
         max-width: 1440px;
-        border: solid 1px red;
         width: 100%;
     }
 

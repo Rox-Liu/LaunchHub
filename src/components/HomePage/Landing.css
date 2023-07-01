@@ -27,7 +27,6 @@
     #landing-container {
         max-width: 1440px;
         font-size: 2em;
-        border: solid 1px red;
     }
 
     #landing-container > button {
