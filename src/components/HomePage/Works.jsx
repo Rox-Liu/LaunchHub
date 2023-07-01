@@ -1,5 +1,8 @@
 import React from 'react';
 import './Works.css';
+import ShelterLinkImg from '../../images/shelterlink.jpeg';
+import CarbonCollective from '../../images/carbon-collective.webp';
+import ClimateWorks from '../../images/climateworks.jpeg';
 
 // Our Works
 const Work = () => {
@@ -8,19 +11,19 @@ const Work = () => {
         {
             header: 'Our Works',
             name: 'ClimateWorks Website',
-            image: 'http://placekitten.com/400/800',
+            image: ClimateWorks,
             desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
         },
         {  
             header: '',
             name: 'ShelterLink Website',
-            image: 'http://placekitten.com/401/801',
+            image: ShelterLinkImg,
             desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
         },
         {
             header: '',
             name: 'Carbon Collective App',
-            image: 'http://placekitten.com/402/800',
+            image: CarbonCollective,
             desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error molestias illum, facere ipsa aperiam, adipisci beatae ipsum, obcaecati id odio? Deleniti tenetur quam quaerat. Sunt quae quis velit a?'
         }
     ]
