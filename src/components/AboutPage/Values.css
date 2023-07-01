@@ -1,0 +1,50 @@
+#values-container {
+    height: 100vh;
+    margin: 0em 2em 2em 2em;
+    position: relative;
+    padding-top: 8rem;
+}
+
+.values-blurb {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    margin-bottom: 2rem;
+}
+
+.values-blurb > h1 {
+    margin: 1rem 0 2rem 0;
+    font-weight: bold;
+}
+
+.values-list > h2 {
+    font-weight: 700;
+    margin: 1rem 0 1rem 0;
+}
+
+@media ( min-width: 1096px ) {
+    #values-container {
+        max-width: 1440px;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .values-blurb {
+        width: 50%;
+        margin-left: 3rem;
+    }
+
+    .values-blurb > h1 {
+        font-size: 3em;
+        margin-top: -3em;
+    }
+
+    .values-list {
+        width: 50%;
+        margin-right: 3rem;
+        margin-top: 0.5rem;
+    }
+}

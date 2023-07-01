@@ -1,11 +1,16 @@
 import React from 'react';
+import Navbar from "../components/Layouts/Navbar";
+import Values from '../components/AboutPage/Values';
 
 const AboutPage = () => {
     return (
-        <div>
-            <h1>About page coming soon</h1>
-        </div>
-    )
+		<>
+			<Navbar />
+			<div>
+				<Values />
+			</div>
+		</>
+	);
 }
 
 export default AboutPage;
