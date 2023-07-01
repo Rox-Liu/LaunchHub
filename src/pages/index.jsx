@@ -10,8 +10,8 @@ import Navbar from "../components/NavBar";
 const IndexPage = () => {
 	return (
 		<div>
-			<Landing />
             <Navbar />
+			<Landing />
 			<Services />
 			<Work />
 			<ContactForm />
