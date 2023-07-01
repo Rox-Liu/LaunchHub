@@ -9,20 +9,26 @@ nav .label-menu {
 }
 
 .menu-list {
-    display: flex;
+    display: block;
     direction: column;
     list-style: none;
     margin: 0;
     padding: 0;
     opacity: 0;
+    font-weight: bold;
 }
+
+.menu-list a {
+    text-decoration: none;
+    color: #000;
+}
+
 #checkbox-menu {
     display: none;
 }
 
 #checkbox-menu:checked ~ .menu-list {
     opacity: 1;
-    display: block;
 }
 
 @media  (min-width: 544px) {
@@ -35,5 +41,10 @@ nav .label-menu {
         direction: row;
         gap: 2em;
         opacity: 1;
+    }
+
+    .menu-list a {
+        text-decoration: none;
+        color: #000;
     }
 }
