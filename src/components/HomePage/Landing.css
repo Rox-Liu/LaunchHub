@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    /* position: relative; */
 }
 
 #landing-container > h1 {
@@ -21,6 +22,12 @@
     width: 70%;
     align-self: flex-start;
     margin-top: 3em;
+}
+
+#landing-arrow {
+    position: absolute;
+    bottom: 5em;
+    right: 50%;
 }
 
 @media ( min-width: 1024px ) {
