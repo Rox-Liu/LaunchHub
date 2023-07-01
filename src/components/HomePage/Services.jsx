@@ -3,22 +3,26 @@ import './Services.css';
 
 const Services = () => {
     return (
-        <div className="container">
-            <h1>What We Do</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro asperiores cumque praesentium illum pariatur id consequatur beatae, maxime, nesciunt omnis excepturi at accusamus ipsum iste inventore. Eligendi veritatis maiores accusantium?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nihil! Illum quas voluptatibus beatae non labore perferendis commodi distinctio ipsa temporibus placeat quos, doloribus, optio eaque deleniti, cum inventore incidunt!</p>
+        <div id="services-container">
+            <div className="services-blurb">
+                <h1>What We Do</h1>
+                <p>We help you plan, create, maintain and drive your website.</p>
+                <p>With our expertise in UX design and software engineering, we help socially-driven startups drive social change and make a meaningful impact online.</p>
+            </div>
+            
+            <div className="services-list">
+                <h2>User-Centered Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-            <h2>One</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Website Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-            <h2>Two</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Front- & Back-End Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-            <h2>Three</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-            <h2>Four</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Optimisation</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
         </div>
     )
 }

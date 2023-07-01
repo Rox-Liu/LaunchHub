@@ -4,7 +4,7 @@ import './Landing.css'
 // Landing page
 const Landing = () => {
     return (
-        <div className="container">
+        <div id="landing-container">
             <h1>
                 We help start ups with a focus on delivering social impacts, scale and reach their audience effectively.
             </h1>

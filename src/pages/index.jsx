@@ -13,8 +13,8 @@ const IndexPage = () => {
 			<Landing />
             <Navbar />
 			<Services />
-			<ContactForm />
 			<Work />
+			<ContactForm />
 			<Footer />
 		</div>
 	);
