@@ -1,11 +1,18 @@
 import * as React from "react";
-import ContactForm from "../components/ContactForm";
+import ContactForm from "../components/HomePage/ContactForm";
+import Services from "../components/HomePage/Services";
+import Landing from "../components/HomePage/Landing";
+import Work from "../components/HomePage/Works";
+import Footer from "../components/Footer";
 
 const IndexPage = () => {
 	return (
 		<div>
-			<h1>LaunchHub Coming Soon</h1>
+			<Landing />
+			<Services />
 			<ContactForm />
+			<Work />
+			<Footer />
 		</div>
 	);
 };

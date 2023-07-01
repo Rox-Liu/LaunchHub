@@ -15,12 +15,13 @@ const ContactForm = () => {
 
     return (
         <div className="contact-form">  
-            <h2>Reach Out!</h2>
+            <h2>Work With Us!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus inventore at voluptatibus consequatur asperiores nihil vero ab voluptates? Animi ipsam aliquid cupiditate iste laborum repellendus est sapiente voluptatibus atque.</p>
             <form onSubmit={ handleSubmit }>
-                <label htmlFor="firstName">*Name:</label>
+                <label htmlFor="firstName">*First Name:</label>
                 <input type="text" name="firstName" id="firstName" placeholder="Frank" required />
 
-                <label htmlFor="lastName">*Name:</label>
+                <label htmlFor="lastName">*Last Name:</label>
                 <input type="text" name="lastName" id="lastName" placeholder="Ocean" required />
 
                 <label htmlFor="email">*Email:</label>
