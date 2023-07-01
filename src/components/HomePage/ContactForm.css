@@ -1,3 +1,51 @@
-.container {
+#contact-container {
     height: 100vh;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-blurb {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+
+.contact-blurb > h2 {
+    margin: 1dvb 0 2rem 0;
+    margin-bottom: 2rem;
+}
+
+form {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input, label, textarea {
+    width: 100%;
+    border: none;
+    margin: .2em 0 .2em 0;
+    font-size: 1rem;
+}
+
+input, textarea { 
+    background: lightgrey;
+    padding: .5em;
+}
+
+form > button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+textarea {
+    height: 25%;
 }

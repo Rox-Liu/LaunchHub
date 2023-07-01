@@ -8,12 +8,12 @@
     border: solid 1px red;
 }
 
-h1 {
+#landing-container > h1 {
     font-size: 2.5em;
     font-weight: 900;
 }
 
-button {
+#landing-container > button {
     font-weight: bold;
     background-color: #E5692B;
     border: none;
