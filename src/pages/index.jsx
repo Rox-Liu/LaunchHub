@@ -22,6 +22,6 @@ const IndexPage = () => {
 	);
 };
 
-export const Head = () => <title>LaunchHub</title>;
+export const Head = () => <title>SHIFT</title>;
 
 export default IndexPage;
