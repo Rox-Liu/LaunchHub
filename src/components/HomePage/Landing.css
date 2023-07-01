@@ -1,6 +1,6 @@
 #landing-container {
     height: 100vh;
-    margin: 2em;
+    margin: 0em 2em 0 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,3 +23,15 @@
     margin-top: 3em;
 }
 
+@media ( min-width: 1024px ) {
+    #landing-container {
+        max-width: 1440px;
+        font-size: 2em;
+        border: solid 1px red;
+    }
+
+    #landing-container > button {
+        width: 20%;
+        margin-top: 5em;
+    }
+}

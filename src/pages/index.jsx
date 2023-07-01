@@ -9,14 +9,16 @@ import Navbar from "../components/NavBar";
 
 const IndexPage = () => {
 	return (
-		<div>
-            <Navbar />
-			<Landing />
-			<Services />
-			<Work />
-			<ContactForm />
-			<Footer />
-		</div>
+		<>
+			<Navbar />
+			<div>
+				<Landing />
+				<Services />
+				<Work />
+				<ContactForm />
+				<Footer />
+			</div>
+		</>
 	);
 };
 

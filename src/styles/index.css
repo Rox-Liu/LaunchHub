@@ -6,3 +6,10 @@
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
+
+#gatsby-focus-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

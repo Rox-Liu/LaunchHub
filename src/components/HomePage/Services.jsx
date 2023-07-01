@@ -5,8 +5,7 @@ const Services = () => {
     return (
         <div id="services-container">
             <div className="services-blurb">
-                <h1>What We Do</h1>
-                <p>We help you plan, create, maintain and drive your website.</p>
+                <h1>We help make change happen</h1>
                 <p>With our expertise in UX design and software engineering, we help socially-driven startups drive social change and make a meaningful impact online.</p>
             </div>
             

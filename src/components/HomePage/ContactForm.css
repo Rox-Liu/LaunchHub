@@ -1,24 +1,23 @@
 #contact-container {
     height: 100vh;
-    margin: 2em;
+    margin: 0em 2em 0 2em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    border: solid 1px red;
 }
 
 .contact-blurb {
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    margin-bottom: 3em;
 }
 
-.contact-blurb > h2 {
-    margin: 1dvb 0 2rem 0;
+.contact-blurb > h1 {
+    margin: 2rem 0 2rem 0;
     margin-bottom: 2rem;
 }
 
 form {
-    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +26,7 @@ form {
 input, label, textarea {
     width: 100%;
     border: none;
-    margin: .2em 0 .2em 0;
+    margin: .5em 0;
     font-size: 1rem;
 }
 
@@ -40,12 +39,62 @@ form > button {
     background-color: black;
     color: white;
     border: none;
-    border-radius: 1.5em;
-    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 1em;
+    padding: 1em;
     width: 60%;
     margin-top: 1rem;
 }
 
 textarea {
-    height: 25%;
+    height: 10em;
+}
+
+@media ( min-width: 1024px ) {
+    #contact-container {
+        max-width: 1440px;
+        border: solid 1px red;
+        width: 100%;
+    }
+
+    .contact-blurb > h1 {
+        font-size: 4em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input, textarea, label {
+        font-size: 1.5rem;
+        margin: .4em 0;
+    }
+
+    .inputs-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .form-inputs {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-right: 2em;
+        justify-content: flex-start;
+    }
+
+    .form-text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 25em;
+        justify-content: flex-start;
+    }
+
+    form > button {
+        width: 20%;
+        margin-top: 5em;
+    }
+
 }

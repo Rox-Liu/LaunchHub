@@ -1,6 +1,6 @@
 #services-container {
     height: 100vh;
-    margin: 2em;
+    margin: 0em 2em 2em 2em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -16,14 +16,34 @@
     font-weight: bold;
 }
 
-.services-blurb > p:first-of-type {
-    margin-bottom: 2rem;
-    font-weight: 700;
-}
-
 .services-list > h2 {
     font-weight: 700;
     margin: 1rem 0 1rem 0;
 }
 
 
+@media ( min-width: 1024px ) {
+    #services-container {
+        max-width: 1440px;
+        font-size: 1.5rem;
+        flex-direction: row;
+        border: solid 1px red;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+
+    .services-blurb {
+        width: 50%;
+        margin-right: 7em;
+    }
+
+    .services-blurb > h1 {
+        font-size: 3em;
+        margin-top: -2em;
+    }
+
+    .services-list {
+        width: 50%;
+    }
+}
