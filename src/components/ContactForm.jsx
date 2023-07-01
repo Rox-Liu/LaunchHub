@@ -17,8 +17,11 @@ const ContactForm = () => {
         <div className="contact-form">  
             <h2>Reach Out!</h2>
             <form onSubmit={ handleSubmit }>
-                <label htmlFor="name">*Name:</label>
-                <input type="text" name="name" id="name" placeholder="Frank Ocean" required />
+                <label htmlFor="firstName">*Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Frank" required />
+
+                <label htmlFor="lastName">*Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Ocean" required />
 
                 <label htmlFor="email">*Email:</label>
                 <input id="email" type="email" name="email" placeholder="frank@gmail.com" required/>
