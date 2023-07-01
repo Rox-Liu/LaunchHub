@@ -28,7 +28,7 @@ const Work = () => {
     return (
         <> 
             <div id="work-outer-container">
-                <h1>Our recent work</h1>
+                <h1 id="our-works">Our recent work</h1>
                 <div id="work-inner-container">
                     
                 { works.map( (work, index) => {

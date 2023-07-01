@@ -28,9 +28,9 @@ const Navbar = () => {
                 </label>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
-                <AnchorLink to="/#services">Services</AnchorLink>
-                <AnchorLink to="/#works">Works</AnchorLink>
-                <AnchorLink to="/#contactform">Contact</AnchorLink>
+                <AnchorLink to="/#our-services">Services</AnchorLink>
+                <AnchorLink to="/#our-works">Works</AnchorLink>
+                <AnchorLink to="/#contact-us">Contact</AnchorLink>
             </div>
         </nav>
     );

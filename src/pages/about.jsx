@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import Team from '../components/AboutUs/Team';
-import Values from '../components/AboutPage/Values';
+import Values from '../components/AboutUs/Values';
 import '../styles/about.css';
 
 const AboutPage = () => {
@@ -10,7 +10,7 @@ const AboutPage = () => {
             <Navbar />
             <div>
                 <Team />
-      				  <Values />
+                <Values />
             </div>
         </>
     )

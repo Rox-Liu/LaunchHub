@@ -1,5 +1,4 @@
  <img src="image.png" alt="drawing" width="200"/>
- <br />
 
 # We work with start-ups to deliver social impact, scale and reach their audience.
 
@@ -16,9 +15,11 @@
 * Contributing
 * Contact
 <br />
+
 ## 📄 General Info
 SHIFT was developed as part of the Collabathon and led by a dedicated team comprising Dom, Jessica, Natalie, and Roxanne. We worked together intensively over a weekend with the goal of leveraging our diverse skill sets, creativity, and collaboration to build an impactful and responsive app for startups. Throughout the Collabathon, we embraced challenges, brainstormed ideas, and implemented our collective knowledge to bring SHIFT to life.
 <br><br>
+
 ## ✏️ Planning & Problem Solving
 
 <br></br>
@@ -97,30 +98,18 @@ There are several aspects of Pocket Cart at the moment: Admin, User Authenticati
 ![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Sign%20in.png)
 ### My Account Page
 ![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/My%20Account.png)
-### Search
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Search.png)
-### Cart
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Cart.png)
-### Product Page
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Product.png)
-### Payment Page
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/shipping%20%26%20payment.png)
-### Admin Page
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Admin.png)
-### Order Confirmation
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Order%20Confirmation.png)
-### Password Reset
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Password%20Reset.png)
+
 
 <br><br>
 ## 🚀 Room for improvement
 - Improved UI
-- Optimize the application to ensure mobile compatibility and a seamless user experience on all devices
-- Add "Buy Now" button for better customer experience
+- Keep building the Services Page and Works Page
 <br><br>
+
 ## 🔐 License
 This project is licensed under the [MIT License](LICENSE).
 <br><br>
+
 ## 🌱 Contributing
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
@@ -130,14 +119,10 @@ Contributions are welcome! If you would like to contribute to this project, plea
 - Push your changes to your forked repository
 - Submit a pull request explaining your changes
 <br><br>
+
 ## 📧 Contact
 
 - Dom -- dominicwong09@gmail.com
-- Karen -- karenliang9546@gmail.com
-- Riley -- riley.mercer4@gmail.com
+- Jessica -- wjess@outlook.com
+- Natalie -- natalie.vivienne@gmail.com
 - Roxanne -- roxanneliu819@gmail.com
-- Stuart -- stuartcannone@gmail.com
-
-<br><br>
-
-![image](https://raw.githubusercontent.com/Rox-Liu/project-02/main/public/readme_assets/Group%20Image/readme_everyone_v4.png)
