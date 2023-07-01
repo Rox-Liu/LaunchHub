@@ -1,10 +1,16 @@
 import React from 'react';
+import Team from '../components/AboutUs/Team';
+import Navbar from '../components/Layouts/Navbar';
+import '../styles/about.css';
 
 const AboutPage = () => {
     return (
-        <div>
-            <h1>About page coming soon</h1>
-        </div>
+        <>  
+            <Navbar />
+            <div>
+                <Team />
+            </div>
+        </>
     )
 }
 
