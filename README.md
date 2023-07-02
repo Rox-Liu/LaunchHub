@@ -67,17 +67,19 @@ npm run develop
 ## 📸 Screenshots
 
 ### Home Page
-
+![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/Home.png)
 ### Our Works
-
+![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/Works.png)
 ### Enquiry Form
+![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/Enquiry.png)
 ### About Us Page
-
+![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/About.png)
 ### Responsive
-
-
+![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/responsive1.png)
+![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/responsive2.png)
 
 <br><br>
+
 ## 🚀 Room for improvement
 - Keep building the Services Page and Works Page
 - Improved UI
