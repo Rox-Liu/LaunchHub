@@ -2,7 +2,8 @@
 
 # We work with start-ups to deliver social impact, scale and reach their audience.
 
-
+## 🪄 Live demo
+Click [here](https://sh1ft.netlify.app/) for live demo!
 ## 📖 Table of Contents
 * General Info
 * Planning & Problem Solving
