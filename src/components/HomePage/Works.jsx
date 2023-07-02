@@ -3,6 +3,7 @@ import './Works.css';
 import ShelterLinkImg from '../../images/shelterlink.jpeg';
 import CarbonCollective from '../../images/carbon-collective.webp';
 import ClimateWorks from '../../images/climateworks.jpeg';
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 // Our Works
 const Work = () => {
@@ -28,7 +29,16 @@ const Work = () => {
     return (
         <> 
             <div id="work-outer-container">
-                <h1 id="our-works">Our recent work</h1>
+                <div id="title">
+                    <h1 id="our-works">Our recent work</h1>
+                    <div id="top">
+                    <AnchorLink to="/#landing-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48" fill="#EAE4DA">
+                            <path d="M450-122v-484L332-488l-42-42 190-190 190 190-42 42-118-118v484h-60ZM160-780v-60h640v60H160Z"/>
+                        </svg>
+                    </AnchorLink>
+                </div>
+                </div>
                 <div id="work-inner-container">
                     
                 { works.map( (work, index) => {

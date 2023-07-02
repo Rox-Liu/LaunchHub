@@ -44,6 +44,12 @@
     z-index: 1;
 }
 
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 @media ( min-width: 1024px ) {
     #work-outer-container {
         display: flex;
