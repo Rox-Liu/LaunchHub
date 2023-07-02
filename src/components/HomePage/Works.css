@@ -30,8 +30,8 @@
 } 
 
 .work > p, h3 {
-   margin-top: 2rem; 
-   align-self: flex-start;
+    margin-top: 2rem; 
+    align-self: flex-start;
 }
 
 #work-shape {
@@ -45,6 +45,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#top {
+    margin: 1rem 0 2rem 0;
+
 }
 
 @media ( min-width: 1024px ) {

@@ -30,6 +30,7 @@ const Work = () => {
         <> 
             <div id="work-outer-container">
                 <div id="title">
+                    <h1>Our recent work</h1>
                     <div id="top">
                         <AnchorLink to="/#landing-container">
                             <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48" fill="#EAE4DA">
@@ -38,7 +39,6 @@ const Work = () => {
                         </AnchorLink>
                     </div>
                 </div>
-                <h2>Our recent work</h2>
                 <div id="work-inner-container">
                     
                 { works.map( (work, index) => {
