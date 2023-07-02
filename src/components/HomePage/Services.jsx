@@ -7,7 +7,7 @@ const Services = () => {
             <div id="services-container">
                 <div className="services-blurb">
                     <h1 id="our-services">We help make change happen</h1>
-                    <p>With our expertise in UX design and software engineering, we help socially-driven startups drive positive change and make a meaningful impact online. Discovery how we can work together today.</p>
+                    <p>With our expertise in UX design and software engineering, we help socially-driven startups drive positive change and make a meaningful impact online. Discover how we can work together today.</p>
                 </div>
                 
                 <div className="services-list">

@@ -19,7 +19,7 @@ const ContactForm = () => {
         <div id="contact-container">
             <div id="title">
                 <div className="contact-blurb">
-                    <h1 id="contact-us">Lets Chat!</h1>
+                    <h1 id="contact-us">Let's Chat!</h1>
                     <p>Need help with your project?<br/> Give us a call or fill in the contact form below and we'll make a time to chat.</p>
                 </div>
                 <div id="top">
