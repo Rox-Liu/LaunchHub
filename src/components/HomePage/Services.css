@@ -13,13 +13,11 @@
     z-index: 2;
 }
 
-.services-blurb > h1 {
+.services-blurb > h2 {
     margin: 1rem 0 2rem 0;
-    font-weight: bold;
 }
 
-.services-list > h2 {
-    font-weight: 700;
+.services-list > h3 {
     margin: 1rem 0 1rem 0;
 }
 

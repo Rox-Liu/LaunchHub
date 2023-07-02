@@ -28,7 +28,6 @@ input, label, textarea {
     width: 100%;
     border: none;
     margin: .5em 0;
-    font-size: 1rem;
 }
 
 input, textarea { 

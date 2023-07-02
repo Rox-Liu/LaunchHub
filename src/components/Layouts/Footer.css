@@ -4,6 +4,14 @@ footer {
     flex-direction: column;
 }
 
+footer * {
+    font-size: 14px;
+}
+
+div > h3 {
+    font-weight: 700;
+}
+
 footer > div {
     margin: .5em 0;
 }

@@ -6,21 +6,21 @@ const Services = () => {
         <>
             <div id="services-container">
                 <div className="services-blurb">
-                    <h1 id="our-services">We help make change happen</h1>
+                    <h2 id="our-services">We help make change happen</h2>
                     <p>With our expertise in UX design and software engineering, we help socially-driven startups drive positive change and make a meaningful impact online. Discovery how we can work together today.</p>
                 </div>
                 
                 <div className="services-list">
-                    <h2>Design Research</h2>
+                    <h3>Design Research</h3>
                     <p>Uncover powerful insights that drive positive change</p>
 
-                    <h2>Experience Design</h2>
+                    <h3>Experience Design</h3>
                     <p>Craft inclusive and user centred digital experiences</p>
 
-                    <h2>Front- & Back-End Development</h2>
+                    <h3>Front- & Back-End Development</h3>
                     <p>Create digital products to work seamlessly across all screens</p>
 
-                    <h2>Brand Strategy</h2>
+                    <h3>Brand Strategy</h3>
                     <p>Develop your brand with purpose and vision at the centre</p>
                 </div>
                 <svg id="service-shape" width="164" height="170" viewBox="0 0 164 170" fill="none" xmlns="http://www.w3.org/2000/svg">

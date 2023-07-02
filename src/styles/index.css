@@ -20,4 +20,41 @@
     --accent: #E5692B;
     --bg-color: #272624;
     --text-color: #EAE4DA;
+    --head-size-s: 45px;
+    --subhead-size-s: 32px;
+    --caption-size-s: 20px;
+    --text-size-s: 16px;
+    /* --head-size-l: 70px;
+    --subhead-size-l: 32px;
+    --caption-size-l: 20px;
+    --text-size-l: 16px; */
+}
+
+h1 {
+    font-size: var(--head-size-s);
+    font-weight: 800;
+}
+
+h2 {
+    font-size: var(--subhead-size-s);
+    font-weight: 700;
+}
+
+h3 {
+    font-size: var(--caption-size-s);
+    font-weight: 700;
+}
+
+p, label, a, textarea, input {
+    font-size: var(--text-size-s);
+    font-weight: 400;
+}
+
+button {
+    font-size: var(--caption-size-s);
+    font-weight: 700;
+    border-radius: 14px;
+    border: none;
+    background-color: #E5692B;
+    padding: 14px 30px;
 }
