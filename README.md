@@ -67,17 +67,20 @@ npm run develop
 ## 📸 Screenshots
 
 ### Home Page
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Home.png)
+
+### Our Works
+
+### Enquiry Form
 ### About Us Page
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/Sign%20in.png)
+
 ### Responsive
-![image](https://raw.githubusercontent.com/Rox-Liu/online-shop-client/main/src/images/readme_assets/My%20Account.png)
+
 
 
 <br><br>
 ## 🚀 Room for improvement
-- Improved UI
 - Keep building the Services Page and Works Page
+- Improved UI
 <br><br>
 
 ## 🔐 License
