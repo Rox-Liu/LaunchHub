@@ -30,22 +30,22 @@ const Work = () => {
         <> 
             <div id="work-outer-container">
                 <div id="title">
-                    <h1 id="our-works">Our recent work</h1>
                     <div id="top">
-                    <AnchorLink to="/#landing-container">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48" fill="#EAE4DA">
-                            <path d="M450-122v-484L332-488l-42-42 190-190 190 190-42 42-118-118v484h-60ZM160-780v-60h640v60H160Z"/>
-                        </svg>
-                    </AnchorLink>
+                        <AnchorLink to="/#landing-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48" fill="#EAE4DA">
+                                <path d="M450-122v-484L332-488l-42-42 190-190 190 190-42 42-118-118v484h-60ZM160-780v-60h640v60H160Z"/>
+                            </svg>
+                        </AnchorLink>
+                    </div>
                 </div>
-                </div>
+                <h2>Our recent work</h2>
                 <div id="work-inner-container">
                     
                 { works.map( (work, index) => {
                     return (
                         <div className="work" key={index}>
                             <div className="work-img" style={{ backgroundImage: `url(${work.image})`}}></div>
-                            <p>{work.name}</p>
+                            <h3>{work.name}</h3>
                             <p>{work.desc}</p>
                         </div>
                     )

@@ -49,9 +49,11 @@ const ContactForm = () => {
                     </div>
                 </div>
                 
-                <button type="submit" disabled={state.submitting}>
-                    Submit Enquiry!
-                </button>
+                <div>
+                    <button type="submit" disabled={state.submitting}>
+                        Submit Enquiry!
+                    </button>
+                </div>
             </form>
             <ValidationError errors={state.errors} /> 
 

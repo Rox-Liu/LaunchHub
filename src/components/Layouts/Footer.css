@@ -4,6 +4,14 @@ footer {
     flex-direction: column;
 }
 
+footer * {
+    font-size: 14px;
+}
+
+div > h3 {
+    font-weight: 700;
+}
+
 footer > div {
     margin: .5em 0;
 }
@@ -19,7 +27,7 @@ footer >div > div:nth-child(4) > div > a:last-of-type {
 
 @media ( min-width: 1024px ) {
     footer {
-        max-width: 1440px;
+        max-width: 1260px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
