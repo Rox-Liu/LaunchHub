@@ -16,9 +16,16 @@ body {
     font-weight: 900;
 }
 
-#landing-container > button {
+.work-with-us-button {
+    font-size: var(--caption-size-s);
+    font-weight: 700;
+    border-radius: 14px;
+    border: none;
+    background-color: #E5692B;
+    padding: 14px 30px;
     align-self: flex-start;
     margin-top: 3em;
+    text-decoration: none;
 }
 
 #landing-arrow {
