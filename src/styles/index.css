@@ -24,10 +24,8 @@
     --subhead-size-s: 32px;
     --caption-size-s: 20px;
     --text-size-s: 16px;
-    /* --head-size-l: 70px;
-    --subhead-size-l: 32px;
-    --caption-size-l: 20px;
-    --text-size-l: 16px; */
+    --head-size-l: 70px;
+    --subhead-size-l: 60px;
 }
 
 h1 {
@@ -57,4 +55,18 @@ button {
     border: none;
     background-color: #E5692B;
     padding: 14px 30px;
+}
+
+@media ( min-width: 1024px ) {
+    h1 {
+        font-size: var(--head-size-l);
+    }
+
+    h2 {
+        font-size: var(--head-size-l);
+    }
+
+    p {
+        font-size: var(--text-size-s);
+    }
 }

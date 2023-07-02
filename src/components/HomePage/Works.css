@@ -49,6 +49,7 @@
 
 @media ( min-width: 1024px ) {
     #work-outer-container {
+        max-width: 1260px;
         display: flex;
         flex-direction: column;
     }

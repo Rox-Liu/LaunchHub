@@ -30,7 +30,6 @@ body {
 @media ( min-width: 1024px ) {
     #landing-container {
         max-width: 1260px;
-        font-size: var(--head-size-l);
     }
 
     #landing-container > button {

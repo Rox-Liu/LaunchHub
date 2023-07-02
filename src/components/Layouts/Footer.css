@@ -27,7 +27,7 @@ footer >div > div:nth-child(4) > div > a:last-of-type {
 
 @media ( min-width: 1024px ) {
     footer {
-        max-width: 1440px;
+        max-width: 1260px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
