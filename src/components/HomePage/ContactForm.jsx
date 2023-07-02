@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from "@formspree/react";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import './ContactForm.css';
 
 const ContactForm = () => {
@@ -22,9 +23,11 @@ const ContactForm = () => {
                     <p>Need help with your project?<br/> Give us a call or fill in the contact form below and we'll make a time to chat.</p>
                 </div>
                 <div id="top">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48" fill="#EAE4DA">
-                        <path d="M450-122v-484L332-488l-42-42 190-190 190 190-42 42-118-118v484h-60ZM160-780v-60h640v60H160Z"/>
-                    </svg>
+                    <AnchorLink to="/#landing-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48" fill="#EAE4DA">
+                            <path d="M450-122v-484L332-488l-42-42 190-190 190 190-42 42-118-118v484h-60ZM160-780v-60h640v60H160Z"/>
+                        </svg>
+                    </AnchorLink>
                 </div>
             </div>
             <form onSubmit={ handleSubmit }>
