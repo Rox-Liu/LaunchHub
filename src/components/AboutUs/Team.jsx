@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import './Team.css';
 import Jess from '../../images/hs-jess.png';
 import Natalie from '../../images/hs-natalie.png';
+import Rox from '../../images/hs-roxanne.png';
+import Dom from '../../images/hs-dom.png'
 
 
 const Team = () => {
@@ -20,12 +22,12 @@ const Team = () => {
             role: 'UX/UI Designer'
         },
         {
-            image: '',
+            image: Dom,
             name: 'Dominic Wong',
             role: 'Full Stack Developer'
         },
         {
-            image: '',
+            image: Rox,
             name: 'Roxanne Liu',
             role: 'Full Stack Developer'
         }
@@ -61,7 +63,7 @@ const Team = () => {
     return (
         <div id="team-container">
             <div className="team-blurb">
-                <h1>Elevate your digital vision with us.</h1>
+                <h1>Elevate your digital vision with us</h1>
                 <p>Meet our team below</p>
             </div>
 
@@ -71,7 +73,7 @@ const Team = () => {
                         return (
                             <div className="member-tiles">
                                 <img src={member.image } alt={member.name} />
-                                <h2>{member.name}</h2>
+                                <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </div>
                         )
@@ -79,7 +81,7 @@ const Team = () => {
                     :
                     <div className="member-slides">
                         <img src={members[currentIndex].image } alt={members[currentIndex].name} />
-                        <h2>{members[currentIndex].name}</h2>
+                        <h3>{members[currentIndex].name}</h3>
                         <p>{members[currentIndex].role}</p>
                     </div>
                 }
