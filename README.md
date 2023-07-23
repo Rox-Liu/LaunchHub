@@ -77,7 +77,7 @@ npm run develop
 ### Responsive
 ![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/responsive1.png)
 ![image](https://raw.githubusercontent.com/Rox-Liu/LaunchHub/main/src/images/responsive2.png)
-
+![image](https://raw.githubusercontent.com/Rox-Liu/SHIFT/main/src/images/responsive3.png)
 <br><br>
 
 ## 🚀 Room for improvement
